@@ -1,0 +1,120 @@
+#body{
+    background-color: rgb(0, 179, 255);
+}
+.mydiv{
+    border: 2px solid rgb(9, 23, 9);
+    box-sizing: border-box;
+    background-color: rgb(65, 169, 214);
+}
+.mydiv1{
+    background-color: black;
+    font-size: large;
+    size: 30px;
+    margin: 0;
+    font-style: oblique;
+    text-align: center;
+    
+    
+}
+.fo{
+    border: 3px solid rgb(20, 146, 249);
+    display: block;
+    margin:0;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),#3551b5);
+    
+}
+.forms{
+    background-image: url("images/logo.png");
+    border: 3px solid rgb(0, 0, 0);
+    background-position: center;
+    background-image: linear-gradient(rgba(67, 83, 92, 0.7),rgb(50, 117, 205));
+    width: 100%;
+    height: auto;
+    
+}
+.bu{
+    box-shadow: 0 0 5px rgb(0, 191, 255),0 0 25px rgb(0, 106, 255);
+}
+.bu:hover{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,
+     0 0 50px cyan,0 0 100px cyan, 0 0 200px cyan ;
+}
+.form-head{
+    text-align: center;
+    color: #3b6392;
+    margin-bottom: 30px;
+}
+.button {
+    width: 100%;
+    background-color: #af4c4c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.dropbtn{
+    background-color: rgba(0, 13, 255, 0);
+    color: azure;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: floralwhite;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+}
+.dropdown-content a:hover{
+    background-color: azure;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn:hover{
+    background-color: rgb(8, 26, 231);
+
+}
+
+.p1{
+    color: aliceblue;
+}
+.p-6{
+    background-image: url("images/p-6.jpeg");
+    border-image: auto;
+    
+    
+}
+.p-7{
+    background-image: url("images/p-7.jpg");
+    height: 100vh;
+    width: 300%;
+    background-repeat: no-repeat;
+}
+.codiv{
+    border: 3px solid rgb(20, 18, 18);
+    box-sizing: border-box;
+    background-color:rgb(65, 169, 214);
+}
